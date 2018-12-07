@@ -12,9 +12,12 @@ public class multimedia {
 
 	public void cargarAssets() {
 
-		musica = Gdx.audio.newMusic(Gdx.files.internal("sounds/mazmorra.wav"));
-		fire = Gdx.audio.newMusic(Gdx.files.internal("sounds/Ak47 shoot CS-GO Sound Effect.wav"));
-		muerte = Gdx.audio.newMusic(Gdx.files.internal("sounds/muerte.wav"));
+		musica = Gdx.audio.newMusic(Gdx.files.internal(
+				"C:/Users/HOME/Desktop/videoGameGit/videogameGit/box2DExample-android/assets/data/sounds/mazmorra.wav"));
+		fire = Gdx.audio.newMusic(Gdx.files.internal(
+				"C:/Users/HOME/Desktop/videoGameGit/videogameGit/box2DExample-android/assets/data/sounds/Ak47 shoot CS-GO Sound Effect.wav"));
+		muerte = Gdx.audio.newMusic(Gdx.files.internal(
+				"C:/Users/HOME/Desktop/videoGameGit/videogameGit/box2DExample-android/assets/data/sounds/muerte.wav"));
 
 	}
 

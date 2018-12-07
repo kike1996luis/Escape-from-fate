@@ -28,6 +28,7 @@ public class playerBox2D {
 	private Array<Body> tmpBodies = new Array<Body>();
 	private float PTM = 64;
 	private World world;
+	public Bag<Body>[] colSprites;
 	private int framesfx;
 	OrthographicCamera camera;
 	float posX = 0, posY = 0;
@@ -47,10 +48,13 @@ public class playerBox2D {
 												// metro.....
 		bodyDef.type = BodyType.DynamicBody;
 
-		imagen = new Texture(Gdx.files.internal("sprites/player/ak47attack.png"));
-		new Texture(Gdx.files.internal("sprites/player/ak47stand.png"));
+		imagen = new Texture(Gdx.files.internal(
+				"C:/Users/HOME/Desktop/videoGameGit/videogameGit/box2DExample-android/assets/data/sprites/player/ak47attack.png"));
+		new Texture(Gdx.files.internal(
+				"C:/Users/HOME/Desktop/videoGameGit/videogameGit/box2DExample-android/assets/data/sprites/player/ak47stand.png"));
 		TextureRegion[][] tmp = TextureRegion.split(imagen, imagen.getWidth() / 5, imagen.getHeight());
-		imagen1 = new Texture(Gdx.files.internal("sprites/player/feet.png"));
+		imagen1 = new Texture(Gdx.files.internal(
+				"C:/Users/HOME/Desktop/videoGameGit/videogameGit/box2DExample-android/assets/data/sprites/player/feet.png"));
 		TextureRegion[][] tmp1 = TextureRegion.split(imagen1, imagen1.getWidth() / 5, imagen1.getHeight());
 		movPlayer = new TextureRegion[5];
 		movFeet = new TextureRegion[5];
@@ -74,13 +78,16 @@ public class playerBox2D {
 														// espacio, NO MODIFICAR
 														// ESTO
 		ballShape.setRadius(1.5f);
+		
+		///PolygonShape asd=new PolygonShape();
+		//asd.setAsBox(hx, hy);
 
 		// fixture definition
 		// el jugador no tiene nada de esto. Así que NO MOVER
 		fixtureDef.shape = ballShape;
 		fixtureDef.density = 0f; // Peso en kg
 		fixtureDef.friction = 0; // Deslice sobre otro cuerpo
-		fixtureDef.restitution = 0f; // Rebote
+		fixtureDef.restitution = 0; // Rebote
 		playerCircle = world.createBody(bodyDef); // playerCircle es el cuerpo
 													// del jugador
 		playerCircle.createFixture(fixtureDef);
@@ -91,6 +98,14 @@ public class playerBox2D {
 		playerCircle.setLinearDamping(7); // Que el jugador tenga poca fuerza
 											// lineal para moverse
 
+	}
+
+	public Vector2 getPosition() {
+		return playerCircle.getPosition();
+	}
+
+	public float getAngle() {
+		return playerCircle.getAngle();
 	}
 
 	public void render(SpriteBatch batch) {
@@ -121,8 +136,8 @@ public class playerBox2D {
 		// Con .seTransform puedes modificar la posición x y,
 		// y también colocas el ángulo en el tercer parámetro
 
-		// playerCircle.setTransform(playerCircle.getPosition().x,
-		// playerCircle.getPosition().y, is);
+		 //playerCircle.setTransform(playerCircle.getPosition().x,
+		 //playerCircle.getPosition().y, is);
 	}
 
 	public void dispose() {
@@ -273,7 +288,7 @@ public class playerBox2D {
 
 			batch.begin();
 			boxSprite = new Sprite(new Texture(
-					"C:/Users/HOME/Desktop/tilemap/TiledMap-android/assets/data/sprites/player/ak47stand.png"));
+					"C:/Users/HOME/Desktop/videoGameGit/videogameGit/box2DExample-android/assets/data/sprites/player/ak47stand.png"));
 			boxSprite.setSize(5.5f, 5.5f);
 			boxSprite.setOrigin(boxSprite.getWidth() / 2, boxSprite.getHeight() / 2);
 			playerCircle.setUserData(boxSprite);

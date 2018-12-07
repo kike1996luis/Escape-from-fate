@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="assets"/>
+	<classpathentry kind="src" path="data"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/box2DExample"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/HOME/Desktop/Nueva carpeta (2)/libgdx-0.9.9/gdx.jar"/>

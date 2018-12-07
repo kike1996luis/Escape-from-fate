@@ -20,5 +20,10 @@
 			<type>2</type>
 			<locationURI>PARENT-1-PROJECT_LOC/box2DExample-android/assets</locationURI>
 		</link>
+		<link>
+			<name>data</name>
+			<type>2</type>
+			<location>C:/Users/HOME/git/localRepository/localRepository/box2DExample-android/assets/data</location>
+		</link>
 	</linkedResources>
 </projectDescription>

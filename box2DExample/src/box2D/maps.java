@@ -16,6 +16,9 @@ public class maps {
 	protected static Box2DDebugRenderer debugRenderer;
 	private AssetManager manager;
 	private TiledMap map;
+	Object choosenMap;
+	map00 test;
+	
 
 	protected static OrthogonalTiledMapRenderer renderer;
 	float unitScale;
@@ -50,12 +53,16 @@ public class maps {
 
 			manager = new AssetManager();
 			manager.setLoader(TiledMap.class, new TmxMapLoader());
-			manager.load("maps/test.tmx", TiledMap.class);
+			manager.load(
+					"C:/Users/HOME/Desktop/videoGameGit/videogameGit/box2DExample-android/assets/data/maps/test.tmx",
+					TiledMap.class);
 			manager.finishLoading();
-			map = manager.get("maps/test.tmx", TiledMap.class);
+			map = manager.get(
+					"C:/Users/HOME/Desktop/videoGameGit/videogameGit/box2DExample-android/assets/data/maps/test.tmx",
+					TiledMap.class);
 			renderer = new OrthogonalTiledMapRenderer(map, unitScale);
 			debugRenderer.setDrawContacts(false);
-			map00 test = new map00();
+			test = new map00();
 			player = new playerBox2D(test.posX(), test.posY(), world, camera, multi);
 			test.buildMap(world);
 			break;
@@ -64,7 +71,7 @@ public class maps {
 
 	public void render() { // Se renderiza el jugador y las cámaras
 		renderer.setView(camera);
-		renderer.render();
+		renderer.render();test.renderMaterials(batch);
 		player.render(batch);
 	}
 }

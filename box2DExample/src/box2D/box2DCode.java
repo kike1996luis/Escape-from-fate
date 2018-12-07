@@ -48,7 +48,8 @@ public class box2DCode implements ApplicationListener {
 		batch = new SpriteBatch();
 		debugRenderer = new Box2DDebugRenderer();
 
-		Pixmap pm = new Pixmap(Gdx.files.internal("sprites/UI/crosshair.png"));
+		Pixmap pm = new Pixmap(Gdx.files.internal(
+				"C:/Users/HOME/Desktop/videoGameGit/videogameGit/box2DExample-android/assets/data/sprites/UI/crosshair.png"));
 		Gdx.input.setCursorImage(pm, 20, 18);
 		pm.dispose();
 		Map = new maps(camera, world, debugRenderer, renderer, batch, multi);
