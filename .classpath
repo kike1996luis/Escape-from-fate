@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/box2DExample"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="box2DExample-desktop/src"/>
+	<classpathentry kind="src" path="box2DExample/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/HOME/Desktop/Nueva carpeta (2)/libgdx-0.9.9/gdx.jar"/>
 	<classpathentry kind="lib" path="C:/Users/HOME/Desktop/Nueva carpeta (2)/libgdx-0.9.9/gdx-1.7.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/HOME/Desktop/Nueva carpeta (2)/libgdx-0.9.9/gdx-ai-1.7.0.jar"/>
@@ -15,9 +15,9 @@
 	<classpathentry kind="lib" path="C:/Users/HOME/Desktop/Nueva carpeta (2)/libgdx-0.9.9/gdx-backend-robovm.jar"/>
 	<classpathentry kind="lib" path="C:/Users/HOME/Desktop/Nueva carpeta (2)/libgdx-0.9.9/gdx-natives.jar"/>
 	<classpathentry kind="lib" path="C:/Users/HOME/Desktop/Nueva carpeta (2)/libgdx-0.9.9/gdx-openal.jar"/>
-	<classpathentry kind="lib" path="C:/Users/HOME/Desktop/Nueva carpeta (2)/libgdx-0.9.9/gdx-pe-loader-1.1.0.jar" sourcepath="C:/Users/HOME/Desktop/Nueva carpeta (2)/libgdx-0.9.9/gdx-pe-loader-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HOME/Desktop/Nueva carpeta (2)/libgdx-0.9.9/gdx-pe-loader-1.1.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/HOME/Desktop/Nueva carpeta (2)/libgdx-0.9.9/gdx-pe-loader-1.1.0-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/HOME/Desktop/Nueva carpeta (2)/libgdx-0.9.9/gdx-setup.jar"/>
 	<classpathentry kind="lib" path="C:/Users/HOME/Desktop/Nueva carpeta (2)/libgdx-0.9.9/gdx-setup-ui.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="output" path="box2DExample/bin"/>
 </classpath>
