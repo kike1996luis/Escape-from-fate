@@ -13,38 +13,37 @@ import com.badlogic.gdx.utils.Array;
 
 public class playerBox2D {
 
-	private Vector2 movement = new Vector2();
-	private Body playerCircle;
-	private Texture imagen;
-	private Texture imagen1;
-	private TextureRegion[] movPlayer;
-	private TextureRegion[] movFeet;
-	private Animation animationAttack;
-	private Animation animationFeet;
+	private final Vector2 movement = new Vector2();
+	private final Body playerCircle;
+	private final Texture imagen;
+	private final Texture imagen1;
+	private final TextureRegion[] movPlayer;
+	private final TextureRegion[] movFeet;
+	private final Animation animationAttack;
+	private final Animation animationFeet;
 	private float tiempo;
 	private boolean attack;
 	private TextureRegion frameActual2;
 	private Sprite boxSprite;
 	private Array<Body> tmpBodies = new Array<Body>();
-	private float PTM = 64;
-	private World world;
-	public Bag<Body>[] colSprites;
+	private final float PTM = 64;
+	private final World world;
 	private int framesfx;
 	OrthographicCamera camera;
 	float posX = 0, posY = 0;
 	float is = 0;
-	private multimedia multi;
+	private final multimedia multi;
 
 	public playerBox2D(int x, int y, World world, final OrthographicCamera camera, multimedia multi) {
 		this.camera = camera;
 		this.multi = multi;
 		this.world = world;
-		BodyDef bodyDef = new BodyDef(); // Aquí sólo se va a cargar el cuerpo
+		BodyDef bodyDef = new BodyDef(); // Aquï¿½ sï¿½lo se va a cargar el cuerpo
 											// del jugador y su sprite
 											// correspondiente
 		FixtureDef fixtureDef = new FixtureDef();
 		bodyDef.position.set(x / PTM, y / PTM); // PTM significa Pixels to
-												// Meters, 64 píxeles es un
+												// Meters, 64 pï¿½xeles es un
 												// metro.....
 		bodyDef.type = BodyType.DynamicBody;
 
@@ -59,12 +58,8 @@ public class playerBox2D {
 		movPlayer = new TextureRegion[5];
 		movFeet = new TextureRegion[5];
 
-		for (int i = 0; i < 5; i++) {
-			movFeet[i] = tmp1[0][i];
-		}
-		for (int i = 0; i < 5; i++) {
-			movPlayer[i] = tmp[0][i];
-		}
+            System.arraycopy(tmp1[0], 0, movFeet, 0, 5);
+            System.arraycopy(tmp[0], 0, movPlayer, 0, 5);
 		animationAttack = new Animation(0.07f, movPlayer);
 		animationFeet = new Animation(0.10f, movFeet);
 		tiempo = 0f;
@@ -73,17 +68,17 @@ public class playerBox2D {
 
 		// ball shape
 		CircleShape ballShape = new CircleShape();
-		ballShape.setPosition(new Vector2(-1.5f, 0f)); // Posición del cuerpo
+		ballShape.setPosition(new Vector2(-1.5f, 0f)); // Posiciï¿½n del cuerpo
 														// del player en el
 														// espacio, NO MODIFICAR
 														// ESTO
 		ballShape.setRadius(1.5f);
-		
-		///PolygonShape asd=new PolygonShape();
-		//asd.setAsBox(hx, hy);
+
+		/// PolygonShape asd=new PolygonShape();
+		// asd.setAsBox(hx, hy);
 
 		// fixture definition
-		// el jugador no tiene nada de esto. Así que NO MOVER
+		// el jugador no tiene nada de esto. Asï¿½ que NO MOVER
 		fixtureDef.shape = ballShape;
 		fixtureDef.density = 0f; // Peso en kg
 		fixtureDef.friction = 0; // Deslice sobre otro cuerpo
@@ -97,7 +92,6 @@ public class playerBox2D {
 
 		playerCircle.setLinearDamping(7); // Que el jugador tenga poca fuerza
 											// lineal para moverse
-
 	}
 
 	public Vector2 getPosition() {
@@ -112,7 +106,7 @@ public class playerBox2D {
 
 		camera.position.set(playerCircle.getPosition().x, playerCircle.getPosition().y, 0); // Pone
 																							// la
-																							// cámara
+																							// cï¿½mara
 																							// en
 																							// el
 																							// centro
@@ -123,21 +117,21 @@ public class playerBox2D {
 		stand(batch);
 		attack(batch);
 		tiempo += Gdx.graphics.getDeltaTime();
-		rotateSprite(); // Aquí cargas la función de rotar
+		rotateSprite(); // Aquï¿½ cargas la funciï¿½n de rotar
 		batch.setProjectionMatrix(camera.combined);
 
 	}
 
-	public void rotateSprite() { // EMILIO AQUÍ VAS A HACER LA FUNCIÓN DE ROTAR
+	public void rotateSprite() { // EMILIO AQUï¿½ VAS A HACER LA FUNCIï¿½N DE ROTAR
 
-		is += 0.1f; // Puedes probar la rotación activando el .setTransform de
-					// aquí abajo
+		is += 0.1f; // Puedes probar la rotaciï¿½n activando el .setTransform de
+					// aquï¿½ abajo
 
-		// Con .seTransform puedes modificar la posición x y,
-		// y también colocas el ángulo en el tercer parámetro
+		// Con .seTransform puedes modificar la posiciï¿½n x y,
+		// y tambiï¿½n colocas el ï¿½ngulo en el tercer parï¿½metro
 
-		 //playerCircle.setTransform(playerCircle.getPosition().x,
-		 //playerCircle.getPosition().y, is);
+		// playerCircle.setTransform(playerCircle.getPosition().x,
+		// playerCircle.getPosition().y, is);
 	}
 
 	public void dispose() {
@@ -153,22 +147,24 @@ public class playerBox2D {
 		boolean derecha = Gdx.input.isKeyPressed(Keys.D);
 		if (arriba || abajo || izquierda || derecha) {
 
-			batch.begin(); // Aquí se dibujan los pies
 			frameActual2 = animationFeet.getKeyFrame(tiempo, true);
-			Sprite sprite = new Sprite(frameActual2);
-			sprite.setSize(5.5f, 5.5f);
-			sprite.setOrigin(sprite.getWidth() / 2, sprite.getHeight() / 2);
-			playerCircle.setUserData(sprite);
+			Sprite spriteAux = new Sprite(frameActual2);
+			spriteAux.setSize(5.5f, 5.5f);
+			spriteAux.setOrigin(spriteAux.getWidth() / 2, spriteAux.getHeight() / 2);
+			playerCircle.setUserData(spriteAux);
 			world.getBodies(tmpBodies);
-			for (Body body : tmpBodies)
-				if (body.getUserData() != null && body.getUserData() instanceof Sprite) {
-					Sprite spriteaux = (Sprite) body.getUserData();
-					spriteaux.setPosition(body.getPosition().x - sprite.getWidth() / 2,
-							body.getPosition().y - sprite.getHeight() / 2);
-					spriteaux.setRotation(body.getAngle() * MathUtils.radiansToDegrees);
-					spriteaux.draw(batch);
-				}
-			batch.end();
+                    for (Body body : tmpBodies) {
+                        if (body.getUserData() != null && body.getUserData() instanceof Sprite) {
+                            batch.begin(); // Aquï¿½ se dibujan los pies
+                            Sprite spriteaux = (Sprite) body.getUserData();
+                            spriteaux.setPosition(body.getPosition().x - spriteaux.getWidth() / 2,
+                                    body.getPosition().y - spriteaux.getHeight() / 2);
+                            spriteaux.setRotation(body.getAngle() * MathUtils.radiansToDegrees);
+                            spriteaux.draw(batch);
+                            batch.end();
+                            body = null;
+                        }
+                    }
 			if (arriba) {
 				if (Gdx.input.isKeyPressed(Keys.CONTROL_LEFT)) {
 					playerCircle.setLinearVelocity(0, +10);
@@ -244,24 +240,26 @@ public class playerBox2D {
 	public void attack(SpriteBatch batch) {
 		attack = Gdx.input.isTouched();
 		if (attack) {
-			batch.begin();
+
 			frameActual2 = animationAttack.getKeyFrame(tiempo, true);
-			Sprite sprite = new Sprite(frameActual2);
-			sprite.setSize(5.5f, 5.5f);
-			sprite.setOrigin(sprite.getWidth() / 2, sprite.getHeight() / 2);
-			sprite.rotate(15);
-			sprite.setRotation(15);
-			playerCircle.setUserData(sprite);
+			Sprite spriteAux = new Sprite(frameActual2);
+			spriteAux.setSize(5.5f, 5.5f);
+			spriteAux.setOrigin(spriteAux.getWidth() / 2, spriteAux.getHeight() / 2);
+			playerCircle.setUserData(spriteAux);
 			world.getBodies(tmpBodies);
-			for (Body body : tmpBodies)
-				if (body.getUserData() != null && body.getUserData() instanceof Sprite) {
-					Sprite spriteaux = (Sprite) body.getUserData();
-					spriteaux.setPosition(body.getPosition().x - sprite.getWidth() / 2,
-							body.getPosition().y - sprite.getHeight() / 2);
-					spriteaux.setRotation(body.getAngle() * MathUtils.radiansToDegrees);
-					spriteaux.draw(batch);
-				}
-			batch.end();
+                    for (Body body : tmpBodies) {
+                        if (body.getUserData() != null && body.getUserData() instanceof Sprite) {
+                            batch.begin();
+                            Sprite spriteaux = (Sprite) body.getUserData();
+                            spriteaux.setPosition(body.getPosition().x - spriteaux.getWidth() / 2,
+                                    body.getPosition().y - spriteaux.getHeight() / 2);
+                            spriteaux.setRotation(body.getAngle() * MathUtils.radiansToDegrees);
+                            spriteaux.draw(batch);
+                            batch.end();
+                            body = null;
+                        }
+                    }
+
 			if (framesfx >= 5) { // Cada cinco frames se reinicia el sonido del
 									// disparo
 				multi.fire.stop();
@@ -273,37 +271,37 @@ public class playerBox2D {
 			framesfx++;
 		}
 		attack = false;
-
 	}
 
 	public void stand(SpriteBatch batch) {
 		attack = Gdx.input.isTouched();
 		if (!attack) {
 
-			// Básicamente se crea un sprite temporal donde se agrega al world
-			// con las coordenadas, y el tamaño dado
+			// Bï¿½sicamente se crea un sprite temporal donde se agrega al world
+			// con las coordenadas, y el tamaï¿½o dado
 			// Luego en el for each, se busca el sprite dentro del world
-			// Y se dibuja, con respecto al centro del círculo y su orientación,
+			// Y se dibuja, con respecto al centro del cï¿½rculo y su orientaciï¿½n,
 			// finalmente se dibuja con el sprite.draw(batch)
 
-			batch.begin();
 			boxSprite = new Sprite(new Texture(
 					"C:/Users/HOME/Desktop/videoGameGit/videogameGit/box2DExample-android/assets/data/sprites/player/ak47stand.png"));
 			boxSprite.setSize(5.5f, 5.5f);
 			boxSprite.setOrigin(boxSprite.getWidth() / 2, boxSprite.getHeight() / 2);
 			playerCircle.setUserData(boxSprite);
 			world.getBodies(tmpBodies);
-			for (Body body : tmpBodies)
-
-				if (body.getUserData() != null && body.getUserData() instanceof Sprite) {
-
-					Sprite sprite = (Sprite) body.getUserData();
-					sprite.setPosition((body.getPosition().x - sprite.getWidth() / 2),
-							(body.getPosition().y - sprite.getHeight() / 2));
-					sprite.setRotation(body.getAngle() * MathUtils.radiansToDegrees);
-					sprite.draw(batch);
-				}
-			batch.end();
+                    for (Body body : tmpBodies) {
+                        if (body.getUserData() != null && body.getUserData() instanceof Sprite) {
+                            
+                            batch.begin();
+                            Sprite sprite = (Sprite) body.getUserData();
+                            sprite.setPosition((body.getPosition().x - sprite.getWidth() / 2),
+                                    (body.getPosition().y - sprite.getHeight() / 2));
+                            sprite.setRotation(body.getAngle() * MathUtils.radiansToDegrees);
+                            sprite.draw(batch);
+                            batch.end();
+                            body = null;
+                        }
+                    }
 		}
 	}
 

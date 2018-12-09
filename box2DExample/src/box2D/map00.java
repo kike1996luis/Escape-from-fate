@@ -3,25 +3,31 @@ package box2D;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector2;
-import com.badlogic.gdx.physics.box2d.Body;
 import com.badlogic.gdx.physics.box2d.BodyDef;
 import com.badlogic.gdx.physics.box2d.ChainShape;
-import com.badlogic.gdx.physics.box2d.CircleShape;
 import com.badlogic.gdx.physics.box2d.FixtureDef;
-import com.badlogic.gdx.physics.box2d.PolygonShape;
 import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.physics.box2d.BodyDef.BodyType;
 
 public class map00 extends maps { // Esta clase se extiende de la clase maps
 
-	private Body feets;
-private Body ex;
-private Materials material;
+	private Bag<Materials>[] colMaterials;
+	int cantM;
 
+	@SuppressWarnings("unchecked")
 	public map00() {
+		
 		super(camera, world, debugRenderer, renderer, batch, multi);
+		colMaterials = (Bag<Materials>[]) new Bag[999];
+		cantM=0;
+		for (int i = 0; i < colMaterials.length; i++) {
+
+			colMaterials[i] = new Bag<Materials>();
+
+		}
 		Gdx.input.setInputProcessor(new InputController() {
 
+                        @Override
 			public boolean scrolled(int amount) {
 
 				camera.rotate(amount * 5);
@@ -31,7 +37,7 @@ private Materials material;
 
 	}
 
-	// Regresa la posición del jugador
+	// Regresa la posiciï¿½n del jugador
 
 	public int posX() {
 		return 1000;
@@ -41,69 +47,52 @@ private Materials material;
 		return 800;
 	}
 
-	public void renderMaterials(SpriteBatch batch){
-		material.render(batch);
+        @Override
+	public void dispose(){
+            for (Bag<Materials> colMaterial : colMaterials) {
+                for (Materials tmpM : colMaterial) {
+                    tmpM.dispose();
+                }
+            }
 	}
 	
-	public void buildMap(World world) { // Objetos y límites del mapa, NO
+	public void renderMaterials(SpriteBatch batch) {
+            for (Bag<Materials> colMaterial : colMaterials) {
+                if (colMaterial == null) {
+                    break;
+                } else {
+                    for (Materials tmpM : colMaterial) {
+                        tmpM.render(batch);
+                    }
+                }
+            }
+	}
+
+	public void addMaterial(Materials material){
+		
+		colMaterials[cantM].add(material);
+		cantM++;
+	}
+	
+	public void buildMap(World world) { // Objetos y lï¿½mites del mapa, NO
 										// MODIFICAR.
 
-		//LoadingMaterials
+		// LoadingMaterials
 		
-		material=new Materials(10, 5, world, 0);
+		colMaterials[cantM].add(new Materials(50, 45, world, 0, 0));
+		colMaterials[cantM].add(new Materials(51, 41, world, 0, 45));
+		colMaterials[cantM].add(new Materials(15, 3, world, 1, 20));
+		colMaterials[cantM].add(new Materials(10, 5, world, 1, 20));
+		colMaterials[cantM].add(new Materials(53, 43, world, 2, 20));
+		colMaterials[cantM].add(new Materials(35, 34, world, 4, 0));
+		colMaterials[cantM].add(new Materials(48, 11.5f, world, 5, 4f));
+		colMaterials[cantM].add(new Materials(67, 39, world, 6, 45f));
+		colMaterials[cantM].add(new Materials(62, 44, world, 3, 0));
+		colMaterials[cantM].add(new Materials(35, 40, world, 7, 9.5f));
 		BodyDef bodyDef = new BodyDef();
 		FixtureDef fixtureDef = new FixtureDef();
-		// Objeto de prueba
-		bodyDef.type = BodyType.DynamicBody;
-		bodyDef.position.set(0, 10);
-		CircleShape feetShape = new CircleShape();
-		feetShape.setPosition(new Vector2(40, 10)); // 10
-		feetShape.setRadius(4.8f);
 
-		fixtureDef.shape = feetShape;
-		fixtureDef.density = 10f; // Peso en kg
-		fixtureDef.friction = 0.5f; // Deslice sobre otro cuerpo
-		fixtureDef.restitution = 0f; // Rebote
-		feets = world.createBody(bodyDef);
-		feets.setLinearDamping(1);
-
-		// feets.setAngularVelocity(50);
-		// feets.applyForce(100000000, 0, feets.getPosition().x,
-		// feets.getPosition().y, true);
-		feets.createFixture(fixtureDef);
-		feetShape.dispose();
-		
-		
-		PolygonShape lol = new PolygonShape();lol.setAsBox(1.1f, 1.2f, new Vector2(10,0), 0);
-		fixtureDef.shape = lol;
-		fixtureDef.density = 1.5f; // Peso en kg
-		fixtureDef.friction = 5; // Deslice sobre otro cuerpo
-		fixtureDef.restitution = 0f; // Rebote
-
-		ex=world.createBody(bodyDef);
-		ex.createFixture(fixtureDef);ex.setAngularDamping(0.3f);
-		ex.setLinearDamping(8);ex.applyAngularImpulse(0, true);
-
-		lol.dispose();
-		
-		bodyDef.type = BodyType.DynamicBody;
-		//
-		CircleShape feetShape1 = new CircleShape();
-		feetShape1.setPosition(new Vector2(10, 35)); // 10
-		feetShape1.setRadius(1.5f);
-		fixtureDef.shape = feetShape1;
-		fixtureDef.density = 10f; // Peso en kg
-		fixtureDef.friction = 0; // Deslice sobre otro cuerpo
-		fixtureDef.restitution = 0.5f; // Rebote
-
-		feets = world.createBody(bodyDef);
-		feets.setLinearDamping(1);
-		feets.createFixture(fixtureDef);
-		feetShape1.dispose();
-
-		fixtureDef.isSensor = false;
 		// Limites del mapa
-
 		// Body definition
 		bodyDef.type = BodyType.StaticBody;
 		bodyDef.position.set(2, 0);
@@ -325,7 +314,7 @@ private Materials material;
 		world.createBody(bodyDef).createFixture(fixtureDef);
 		groundShape38.dispose();
 
-		// debugRenderer.setDrawBodies(false);
-		debugRenderer.setDrawContacts(true);
+		debugRenderer.setDrawBodies(false);
+		debugRenderer.setDrawContacts(false);
 	}
 }

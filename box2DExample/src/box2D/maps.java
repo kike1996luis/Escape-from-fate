@@ -42,14 +42,15 @@ public class maps {
 
 	public void dispose() {
 		player.dispose();
+		test.dispose();
 	}
 
-	public void chooseMap(int opcMap) { // Se escogen los mapas aquí por
-										// parámetro
+	public void chooseMap(int opcMap) { // Se escogen los mapas aquï¿½ por
+										// parï¿½metro
 		switch (opcMap) {
 
-		case 1: // Dependiendo del mapa que se escoja, se carga la posición del
-				// jugador en él
+		case 1: // Dependiendo del mapa que se escoja, se carga la posiciï¿½n del
+				// jugador en ï¿½l
 
 			manager = new AssetManager();
 			manager.setLoader(TiledMap.class, new TmxMapLoader());
@@ -69,9 +70,10 @@ public class maps {
 		}
 	}
 
-	public void render() { // Se renderiza el jugador y las cámaras
+	public void render() { // Se renderiza el jugador y las cï¿½maras
 		renderer.setView(camera);
-		renderer.render();test.renderMaterials(batch);
+		renderer.render();
+		test.renderMaterials(batch);
 		player.render(batch);
 	}
 }
