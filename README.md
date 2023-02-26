@@ -1,37 +1,28 @@
 # Escape-from-fate
-Proyecto de videojuego para la materia desarrollo de videojuegos dictada por el profesor Jose Sanchez, en la universidad del Zulia (LUZ)
+Video game project for the video game development subject taught by Professor Jose Sanchez, at the University of Zulia (LUZ)
 
-1-	Concepto general del juego
+1- General concept of the game
 
-a- Enfoque temático del juego
-i-	Sueño a cumplir: Escapar de la prisión psiquiátrico superando los retos en cada nivel (habitación).
-ii-	Entorno del juego: Se desarrolla en una prisión psiquiátrica.
-iii-	Perspectiva: Camara Top down (vista desde arriba).
+a- Thematic focus of the game i- Dream to fulfill: Escape from the psychiatric prison by overcoming the challenges in each level (room). ii- Game environment: It takes place in a psychiatric prison. iii- Perspective: Top down camera (view from above).
 
-b- Mecánicas del juego
-i-	Objetivo del jugador: Salir con vida de la prisión, superar los obstáculos.
-ii-	Acciones del jugador: Resolver puzzles y derrotar enemigos, con uso de armas.
-iii-	Retos a enfrentar el jugador: Los retos serán de tipo Intrínsecos.
-c- Juegos similares: 
+b- Game mechanics i- Player objective: Get out of prison alive, overcome obstacles. ii- Player actions: Solve puzzles and defeat enemies, using weapons. iii- Challenges to be faced by the player: The challenges will be intrinsic. c- Similar games:
 
--	Hotline Miami.
- 
--	Adventures of Lolo.
- 
-El juego consiste en escapar de una prisión psiquiátrica, en el que el jugador es un enfermo mental que vive el mundo “real” y uno “surreal”, en el que el mundo surreal interpreta a los demás integrantes del juego como personajes de videojuegos, o caricaturas famosas (mario bros, Mickey mouse, Son Goku…), y que para escapar de la prisión debe asesinar a cada uno de ellos y resolver puzzles para lograr el objetivo. El juego acaba cuando el jugador es asesinado o cuando es atrapado.
+Hotline Miami.
 
-3-	Jugabilidad
-El jugador termina el nivel cuando cumpla con el objetivo específico del mapa (acabe con los enemigos y/o supere el puzzle, según sea el caso). Cuando se cumpla con el objetivo específico del mapa, el jugador se debe situar en un punto específico para poder avanzar al siguiente nivel.
+Adventures of Lolo.
 
-El jugador va a poder interactuar con muchos objetos de forma dinámica y a tiempo real para su propia estrategia, tales como mover una silla mientras dispara para poder cubrirse de los enemigos. También va a poder usar varios de esos objetos para resolver puzles específicos del mapa (el uso de una llave para abrir una puerta, por ejemplo…). También van a haber objetos destruibles en los mapas.
+The game consists of escaping from a psychiatric prison, in which the player is a mental patient who lives in the "real" world and a "surreal" one, in which the surreal world interprets the other members of the game as video game characters, or famous cartoons (mario bros, Mickey mouse, Son Goku...), and that to escape from prison he must kill each one of them and solve puzzles to achieve the objective. The game ends when the player is killed or when he is caught.
 
-Los enemigos van a intentar eliminar al jugador, van a estar en una formación específica (caminando alrededor del mapa, en círculos…), o simplemente parados en algún punto esperando al jugador. Van a poder empujar objetos para poder pasar si es que significa un obstáculo para él.
+3- Gameplay The player ends the level when he meets the specific objective of the map (kill the enemies and/or overcome the puzzle, as the case may be). When the specific objective of the map is met, the player must be placed at a specific point in order to advance to the next level.
 
-El jugador  va a tener la opción de disparar o arrojar el arma para poder cambiarla, va a contar con un inventario de ítems en el mapa y si se acaba la munición del arma, deberá buscar otra.
+The player will be able to interact with many objects dynamically and in real time for his own strategy, such as moving a chair while shooting to cover himself from enemies. You will also be able to use several of these objects to solve specific puzzles on the map (the use of a key to open a door, for example…). There will also be destructible objects on the maps.
 
-4-	Apartado técnico
+Enemies will try to eliminate the player, they will be in a specific formation (walking around the map, in circles…), or just standing somewhere waiting for the player. They will be able to push objects to be able to pass if it means an obstacle for him.
 
+The player will have the option of shooting or throwing the weapon in order to change it, he will have an inventory of items on the map and if the weapon runs out of ammunition, he must look for another one.
 
-El videojuego se programa en el lenguaje Java con el framework libGDX 0.9.9, se hace uso del motor de físicas box2D para implementar las colisiones, interacciones, uso de partículas e impulsos para tener más dinamismo y realismo en el juego a tiempo real con el uso de la gravedad y demás cosas que ofrece esa librería.
+4- Technical section
 
-Para la inteligencia artificial se hace uso del grafo A* con ligeras modificaciones para adaptarlo al juego. Los mapas son archivos tiled con matrices 16x16, donde sólo va a tener el piso y las paredes que se cargan solo como fondo en el mismo juego. Los objetos tales como sillas, escritorios… Se cargan dinámicamente en el programa de modo que sea posible la interacción con ellos a tiempo real.
+The video game is programmed in the Java language with the libGDX 0.9.9 framework, the box2D physics engine is used to implement collisions, interactions, the use of particles and impulses to have more dynamism and realism in the game in real time with the use of gravity and other things that library offers.
+
+For artificial intelligence, the A* graph is used with slight modifications to adapt it to the game. The maps are tiled files with 16x16 matrices, where you will only have the floor and the walls that are loaded only as background in the same game. Objects such as chairs, desks... are dynamically loaded into the program so that interaction with them is possible in real time.
