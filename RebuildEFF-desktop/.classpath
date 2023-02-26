@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="assets"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RebuildEFF"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/box2dlights-1.5-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/box2dlights-1.5-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/gdx.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/gdx-1.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/gdx-ai-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/gdx-backend-android.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/gdx-backend-gwt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/gdx-backend-jglfw.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/gdx-backend-jglfw-natives.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/gdx-backend-lwjgl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/gdx-backend-lwjgl-natives.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/gdx-backend-lwjgl-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/gdx-backend-robovm.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/gdx-natives.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/gdx-openal.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/gdx-pe-loader-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/gdx-pe-loader-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/gdx-setup.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/gdx-setup-ui.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kike1/OneDrive/Escritorio/Proyectos/Escape From Fate/RebuildEFF-desktop/libs/json-simple-1.1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

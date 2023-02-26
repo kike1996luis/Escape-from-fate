@@ -1,0 +1,927 @@
+[
+
+	{
+		"mapProperties":{
+
+			"mapname": "test",
+			"width": 800,
+			"height": 480,
+			"backgroundMusic": "title",
+			"path": "bin/data/maps/test.tmx",
+			"pngPath": "bin/data/maps/test1.png",
+			"initialX": 10,
+			"initialY": 10,
+			"initialAngle": 0
+		}
+	},
+
+	{
+		"limit":{
+
+			"figure": "box",
+			"x": 5,
+			"y": 20,
+			"sizeX": 0.5,
+			"sizeY": 2,
+			"angle": 20,
+			"goalID": 0
+		}
+	},
+
+	{
+		"limit":{
+
+			"figure": "circle",
+			"x": 5,
+			"y": 15,
+			"radius": 0.5,
+			"goalID": 0
+		}
+	},
+
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 0,
+			"y1": 0,
+			"x2": 78,
+			"y2": 0,
+			"goalID": 0
+		}
+	},
+
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 21,
+			"y1": 2,
+			"x2": 22,
+			"y2": 2,
+			"goalID": 0
+		}
+	},
+
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 80,
+			"y1": 0,
+			"x2": 80,
+			"y2": 48,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 0,
+			"y1": 0,
+			"x2": 0,
+			"y2": 48,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 0,
+			"y1": 48,
+			"x2": 80,
+			"y2": 48,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 0,
+			"y1": 40,
+			"x2": 12.6,
+			"y2": 40,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 0,
+			"y1": 11.3,
+			"x2": 12.6,
+			"y2": 11.3,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 12.6,
+			"y1": 11.3,
+			"x2": 12.6,
+			"y2": 40,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 22,
+			"y1": 0,
+			"x2": 22,
+			"y2": 3,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 21,
+			"y1": 0,
+			"x2": 21,
+			"y2": 3,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 21,
+			"y1": 3,
+			"x2": 22,
+			"y2": 3,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 21,
+			"y1": 6.5,
+			"x2": 22,
+			"y2": 6.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 21,
+			"y1": 15.5,
+			"x2": 22,
+			"y2": 15.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 22,
+			"y1": 6.5,
+			"x2": 22,
+			"y2": 15.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 21,
+			"y1": 6.5,
+			"x2": 21,
+			"y2": 15.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 22,
+			"y1": 15.5,
+			"x2": 51,
+			"y2": 15.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 22,
+			"y1": 14.5,
+			"x2": 51,
+			"y2": 14.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 51,
+			"y1": 4.5,
+			"x2": 51,
+			"y2": 15.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 50,
+			"y1": 3.5,
+			"x2": 50,
+			"y2": 15.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 50,
+			"y1": 3.5,
+			"x2": 63.5,
+			"y2": 3.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 50,
+			"y1": 4.5,
+			"x2": 63.5,
+			"y2": 4.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 63.5,
+			"y1": 3.5,
+			"x2": 63.5,
+			"y2": 15.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 62.5,
+			"y1": 3.5,
+			"x2": 62.5,
+			"y2": 15.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 62.5,
+			"y1": 15.5,
+			"x2": 70.5,
+			"y2": 15.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 62.5,
+			"y1": 14.5,
+			"x2": 70.5,
+			"y2": 14.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 70.5,
+			"y1": 14.5,
+			"x2": 70.5,
+			"y2": 15.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 73.5,
+			"y1": 14.5,
+			"x2": 73.5,
+			"y2": 15.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 73.5,
+			"y1": 14.5,
+			"x2": 79,
+			"y2": 14.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 73.5,
+			"y1": 15.5,
+			"x2": 79,
+			"y2": 15.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 79,
+			"y1": 0,
+			"x2": 79,
+			"y2": 15.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 65,
+			"y1": 29,
+			"x2": 65,
+			"y2": 48,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 24.5,
+			"y1": 29,
+			"x2": 24.5,
+			"y2": 48,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 25.5,
+			"y1": 29,
+			"x2": 25.5,
+			"y2": 48,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 24.5,
+			"y1": 29,
+			"x2": 49.5,
+			"y2": 29,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 25.5,
+			"y1": 30,
+			"x2": 49.5,
+			"y2": 30,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 49.5,
+			"y1": 29,
+			"x2": 49.5,
+			"y2": 30,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 53,
+			"y1": 29,
+			"x2": 53,
+			"y2": 30,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 53,
+			"y1": 29,
+			"x2": 65,
+			"y2": 29,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 53,
+			"y1": 30,
+			"x2": 65,
+			"y2": 30,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 64,
+			"y1": 30,
+			"x2": 64,
+			"y2": 48,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 75,
+			"y1": 15.5,
+			"x2": 80,
+			"y2": 15.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 50,
+			"y": 45,
+			"angle": 180
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 70,
+			"y": 26,
+			"angle": 180
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 70,
+			"y": 19,
+			"angle": 180
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "explosiveBarrel",
+			"x": 74,
+			"y": 22,
+			"angle": 9.5
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "explosiveBarrel",
+			"x": 58,
+			"y": 22,
+			"angle": 9.5
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "explosiveBarrel",
+			"x": 48,
+			"y": 22,
+			"angle": 9.5
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "wallGlass",
+			"x": 44,
+			"y": 22,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "wheelChair",
+			"x": 21.4,
+			"y": 28.4,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "sofa",
+			"x": 35,
+			"y": 44,
+			"angle": 0,
+			"color": "red"
+		}
+	},
+
+	{
+		"material":{
+
+			"name": "sofa",
+			"x": 31,
+			"y": 44,
+			"angle": 0,
+			"color": "green"
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "bed",
+			"x": 62,
+			"y": 44,
+			"angle": 0,
+			"color": "red"
+		}
+	},
+
+	{
+		"material":{
+
+			"name": "bed",
+			"x": 62,
+			"y": 36,
+			"angle": 0
+		}
+	},
+
+	{
+		"material":{
+
+			"name": "bed",
+			"x": 57,
+			"y": 36,
+			"angle": 0,
+			"color": "green"
+		}
+	},
+
+	{
+		"material":{
+
+			"name": "sofa",
+			"x": 28,
+			"y": 44,
+			"angle": 0,
+		}
+	},
+
+	{
+		"material":{
+
+			"name": "sofa",
+			"x": 43,
+			"y": 44,
+			"angle": 0,
+			"color": "black"
+		}
+	},
+
+	{
+		"material":{
+
+			"name": "sofa",
+			"x": 43,
+			"y": 44,
+			"angle": 0,
+			"color": "blue dark"
+		}
+	},
+
+	{
+		"material":{
+
+			"name": "sofa",
+			"x": 39,
+			"y": 44,
+			"angle": 0,
+			"color": "purple"
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "rotableChair",
+			"x": 15,
+			"y": 3,
+			"angle": 20
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "rotableChair",
+			"x": 10,
+			"y": 5,
+			"angle": 20,
+			"color" : "black"
+		}
+	},
+
+	{
+		"material":{
+
+			"name": "circularTable",
+			"x": 53,
+			"y": 43,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "desk",
+			"x": 48,
+			"y": 11.5,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "mediumDesk",
+			"x": 67,
+			"y": 39,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "glassTable",
+			"x": 57,
+			"y": 10,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "fallenTable",
+			"x": 35,
+			"y": 25,
+			"angle": 9.5
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "miniSofa",
+			"x": 57,
+			"y": 17.4,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "doubleSofa",
+			"x": 66,
+			"y": 10,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "rotableChair",
+			"x": 54,
+			"y": 22,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "littleFlowerVase",
+			"x": 78,
+			"y": 22,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "littleFlowerVase",
+			"x": 70,
+			"y": 22,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "door",
+			"x": 21.5,
+			"y": 4.6,
+			"angle": 0
+		}
+	},
+
+	{
+		"weapon":{
+
+			"name": "knife",
+			"x": 3,
+			"y": 4,
+			"angle": 23
+		}
+	},
+	
+	{
+		"weapon":{
+
+			"name": "ak47",
+			"x": 20,
+			"y": 30,
+			"angle": 180
+		}
+	},
+	
+	{
+		"weapon":{
+
+			"name": "m4a1",
+			"x": 40,
+			"y": 20,
+			"angle": 90
+		}
+	},
+	
+	{
+		"weapon":{
+
+			"name": "crowbar",
+			"x": 32,
+			"y": 25,
+			"angle": 13
+		}
+	},
+	
+	{
+		"weapon":{
+
+			"name": "shotgun",
+			"x": 40,
+			"y": 27,
+			"angle": 45
+		}
+	},
+	
+	{
+		"weapon":{
+
+			"name": "minigun",
+			"x": 24,
+			"y": 9,
+			"angle": 95
+		}
+	},
+	
+	{
+		"weapon":{
+
+			"name": "deagle",
+			"x": 55,
+			"y": 15,
+			"angle": 36
+		}
+	},
+
+	{
+		"enemy":{
+
+			"name": "player",
+			"weapon": "punch",
+			"x": 30,
+			"y": 20,
+			"angle": "izquierda",
+			"behavior": "quiet",
+			"origen": 90,
+			"destino": 80,
+			"pasos": 10
+		}
+	},
+	
+]

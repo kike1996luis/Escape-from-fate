@@ -1,0 +1,1606 @@
+[
+
+	{
+		"mapProperties":{
+
+			"mapname": "map02",
+			"width": 1280,
+			"height": 960,
+			"backgroundMusic": "title",
+			"path": "bin/data/maps/map02.tmx",
+			"pngPath": "bin/data/maps/map02.png",
+			"mediumPngPath": "bin/data/maps/map02medium.png",
+			"initialX": 64,
+			"initialY": 12,
+			"initialAngle": 0,
+			"nextMap": 3
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":64, 
+			"y":4.5,
+			"sizeX": 11,
+			"sizeY": 3,
+			"angle":0,
+			"goalID":998
+
+		}
+
+	},
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":47.8,
+			"y":7.5,
+			"sizeX": 6,
+			"sizeY": 18,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":80.2,
+			"y":7.5,
+			"sizeX": 6,
+			"sizeY": 18,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":100.2,
+			"y":39.5,
+			"sizeX": 18,
+			"sizeY": 18,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":46.1,
+			"y":33.5,
+			"sizeX": 1.3,
+			"sizeY": 7.8,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":79.7,
+			"y":33.5,
+			"sizeX": 1.3,
+			"sizeY": 7.8,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":72,
+			"y":38.2,
+			"sizeX": 1.6,
+			"sizeY": 1.6,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":72,
+			"y":44.7,
+			"sizeX": 1.6,
+			"sizeY": 1.6,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":56,
+			"y":38.2,
+			"sizeX": 1.6,
+			"sizeY": 1.6,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":56,
+			"y":44.7,
+			"sizeX": 1.6,
+			"sizeY": 1.6,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":41.6,
+			"y":43,
+			"sizeX": 1.6,
+			"sizeY": 1.6,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":28.8,
+			"y":43,
+			"sizeX": 1.6,
+			"sizeY": 1.6,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+	
+		"limit":{
+
+			"figure": "box",
+			"x":64,
+			"y":48.2,
+			"sizeX": 6,
+			"sizeY": 14,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":20.4,
+			"y":45.7,
+			"sizeX": 1.2,
+			"sizeY": 2.2,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":29.8,
+			"y":31.6,
+			"sizeX": 15,
+			"sizeY": 11,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":15.8,
+			"y":64.6,
+			"sizeX": 3,
+			"sizeY": 25,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":45.8,
+			"y":91.7,
+			"sizeX": 31,
+			"sizeY": 3,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":34.4,
+			"y":83.8,
+			"sizeX": 1.9,
+			"sizeY": 3.9,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":21.6,
+			"y":83.8,
+			"sizeX": 1.9,
+			"sizeY": 3.9,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":53.5,
+			"y":85.7,
+			"sizeX": 3.9,
+			"sizeY": 1.9,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":42.6,
+			"y":85.7,
+			"sizeX": 3.9,
+			"sizeY": 1.9,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":42.6,
+			"y":79.2,
+			"sizeX": 3.9,
+			"sizeY": 1.9,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":53.5,
+			"y":79.2,
+			"sizeX": 3.9,
+			"sizeY": 1.9,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":53.7,
+			"y":82.4,
+			"sizeX": 4,
+			"sizeY": 0.6,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":43.1, 
+			"y":82.4,
+			"sizeX": 4.7000000000000000000000,
+			"sizeY": 0.6,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":28.7, 
+			"y":76.7,
+			"sizeX": 3.8,
+			"sizeY": 0.8000000000000,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":22.4, 
+			"y":68.4,
+			"sizeX": 4.7,
+			"sizeY": 1.2,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":28, 
+			"y":83.3,
+			"sizeX": 0.5,
+			"sizeY": 4.5,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":37.3, 
+			"y":80.5,
+			"sizeX": 0.6,
+			"sizeY": 13,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":58.6, 
+			"y":73.5,
+			"sizeX": 0.6,
+			"sizeY": 15,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":56.4, 
+			"y":70.5,
+			"sizeX": 5.1,
+			"sizeY": 1.5,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":57.2, 
+			"y":67.8,
+			"sizeX": 7.5,
+			"sizeY": 0.5,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":38.4, 
+			"y":67.8,
+			"sizeX": 7,
+			"sizeY": 0.5,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":38.4, 
+			"y":67.8,
+			"sizeX": 7,
+			"sizeY": 0.5,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 30.4,
+			"y1": 68.3,
+			"x2": 31.4,
+			"y2": 68.3,
+			"goalID": 0
+		}
+	},
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 30.4,
+			"y1": 67.3,
+			"x2": 31.4,
+			"y2": 67.3,
+			"goalID": 0
+		}
+	},
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 30.4,
+			"y1": 67.3,
+			"x2": 30.4,
+			"y2": 68.3,
+			"goalID": 0
+		}
+	},
+	{
+		"material":{
+
+			"name": "door",
+			"x": 28.8,
+			"y": 67.8,
+			"angle": 90
+		}
+	},
+
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 45.4,
+			"y1": 67.3,
+			"x2": 46.4,
+			"y2": 67.3,
+			"goalID": 0
+		}
+	},
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 45.4,
+			"y1": 68.3,
+			"x2": 46.4,
+			"y2": 68.3,
+			"goalID": 0
+		}
+	},
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 46.4,
+			"y1": 67.3,
+			"x2": 46.4,
+			"y2": 68.3,
+			"goalID": 0
+		}
+	},
+	{
+		"material":{
+
+			"name": "door",
+			"x": 47.9,
+			"y": 67.8,
+			"angle": 270
+		}
+	},
+	
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":55.3,
+			"y":60,
+			"sizeX": 1.8,
+			"sizeY": 7,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":54.3,
+			"y":54.8,
+			"sizeX": 2.9,
+			"sizeY": 1.8,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":54.3,
+			"y":65.8,
+			"sizeX": 2.9,
+			"sizeY": 1.8,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":22.5,
+			"y":54.8,
+			"sizeX": 2.9,
+			"sizeY": 1.8,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":22.5,
+			"y":65.8,
+			"sizeX": 2.9,
+			"sizeY": 1.8,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":21.5,
+			"y":60,
+			"sizeX": 1.8,
+			"sizeY": 7,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 80.1,
+			"y1": 57.6,
+			"x2": 84.1,
+			"y2": 57.6,
+			"goalID": 0
+		}
+	},
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 80.1,
+			"y1": 56.6,
+			"x2": 84.1,
+			"y2": 56.6,
+			"goalID": 0
+		}
+	},
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 80.1,
+			"y1": 56.6,
+			"x2": 80.1,
+			"y2": 57.6,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 81,
+			"y1": 56.6,
+			"x2": 81,
+			"y2": 57.6,
+			"goalID": 0
+		}
+	},
+	{
+		"material":{
+
+			"name": "door",
+			"x": 78.6,
+			"y": 57.1,
+			"angle": 90
+		}
+	},
+	
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 73.4,
+			"y1": 56.6,
+			"x2": 73.4,
+			"y2": 57.6,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 68.4,
+			"y1": 56.6,
+			"x2": 73.4,
+			"y2": 56.6,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 68.4,
+			"y1": 57.6,
+			"x2": 73.4,
+			"y2": 57.6,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 72.5,
+			"y1": 56.6,
+			"x2": 72.5,
+			"y2": 57.6,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "door",
+			"x": 75,
+			"y": 57.1,
+			"angle": 270
+		}
+	},
+	
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 64.6,
+			"y1": 68.3,
+			"x2": 65.6,
+			"y2": 68.3,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 64.6,
+			"y1": 67.3,
+			"x2": 65.6,
+			"y2": 67.3,
+			"goalID": 0
+		}
+	},
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 65.6,
+			"y1": 67.3,
+			"x2": 65.6,
+			"y2": 68.3,
+			"goalID": 0
+		}
+	},
+	{
+		"material":{
+
+			"name": "door",
+			"x": 66.9,
+			"y": 67.8,
+			"angle": 270
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":69.4, 
+			"y":65,
+			"sizeX": 0.5,
+			"sizeY": 7.5,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 68.8,
+			"y1": 73.5,
+			"x2": 69.8,
+			"y2": 73.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 68.8,
+			"y1": 72.5,
+			"x2": 68.8,
+			"y2": 73.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 69.8,
+			"y1": 72.5,
+			"x2": 69.8,
+			"y2": 73.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "door",
+			"x": 69.3,
+			"y": 75,
+			"angle": 0
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":64.7, 
+			"y":82,
+			"sizeX": 5.2,
+			"sizeY": 5,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":60.3, 
+			"y":75.2,
+			"sizeX": 1.2,
+			"sizeY": 1.5,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":60.7, 
+			"y":64.9,
+			"sizeX": 1.5,
+			"sizeY": 2,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":72.7, 
+			"y":88,
+			"sizeX": 2,
+			"sizeY": 1,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":119.9, 
+			"y":75.6,
+			"sizeX": 4,
+			"sizeY": 20,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":101, 
+			"y":87,
+			"sizeX": 6.7,
+			"sizeY": 2,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":101.1, 
+			"y":92.6,
+			"sizeX": 20,
+			"sizeY": 4,
+			"angle":0,
+			"goalID":0
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 80.1,
+			"y1": 88.5,
+			"x2": 80.1,
+			"y2": 89.5,
+			"goalID": 0
+		}
+	},
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 80.1,
+			"y1": 88.5,
+			"x2": 81.1,
+			"y2": 88.5,
+			"goalID": 0
+		}
+	},
+	{
+		"limit":{
+
+			"figure": "line",
+			"x1": 80.1,
+			"y1": 89.5,
+			"x2": 81.1,
+			"y2": 89.5,
+			"goalID": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "door",
+			"x": 78.6,
+			"y": 89,
+			"angle": 90
+		}
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":78.9, 
+			"y":95.4,
+			"sizeX": 2,
+			"sizeY": 2,
+			"angle":0,
+			"goalID":999
+
+		}
+
+	},
+	
+	{
+		"limit":{
+
+			"figure": "box",
+			"x":78.9, 
+			"y":90.6,
+			"sizeX": 2,
+			"sizeY": 1,
+			"angle":0,
+			"goalID":998
+
+		}
+
+	},
+	
+	
+	
+	
+	{
+		"material":{
+
+			"name": "bigDesk",
+			"x": 100,
+			"y": 83,
+			"angle": 270
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "rotableChair",
+			"color": "blue"
+			"x": 92,
+			"y": 82,
+			"angle": 180
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "rotableChair",
+			"color": "blue"
+			"x": 92,
+			"y": 87,
+			"angle": 180
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "rotableChair",
+			"color": "blue"
+			"x": 110,
+			"y": 82,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "rotableChair",
+			"color": "blue"
+			"x": 110,
+			"y": 87,
+			"angle": 0
+		}
+	},
+	
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 105,
+			"y": 68,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 105,
+			"y": 60,
+			"angle": 270
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 114,
+			"y": 70,
+			"angle": 180
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 114,
+			"y": 60,
+			"angle": 180
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 95.5,
+			"y": 68,
+			"angle": 180
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 95.5,
+			"y": 62,
+			"angle": 180
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 89.5,
+			"y": 68.5,
+			"angle": 270
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 87,
+			"y": 62,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 79,
+			"y": 71.5,
+			"angle": 270
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 82,
+			"y": 63,
+			"angle": 180
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 72,
+			"y": 68,
+			"angle": 270
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 72,
+			"y": 63,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 82.5,
+			"y": 83,
+			"angle": 180
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 82.5,
+			"y": 78,
+			"angle": 180
+		}
+	},
+	{
+	
+		"material":{
+
+			"name": "chair",
+			"x": 73.5,
+			"y": 85,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 71.5,
+			"y": 78,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "littleFlowerVase",
+			"x": 56.5,
+			"y": 50,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "littleFlowerVase",
+			"x": 20.3,
+			"y": 51,
+			"angle": 180
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "glassTable",
+			"x": 37.8,
+			"y": 60,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "wheelChair",
+			"x": 40.8,
+			"y": 71,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "wheelChair",
+			"x": 34,
+			"y": 71,
+			"angle": 0
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 33,
+			"y": 44.5,
+			"angle": 90
+		}
+	},
+	
+	{
+		"material":{
+
+			"name": "chair",
+			"x": 38,
+			"y": 44.5,
+			"angle": 90
+		}
+	},
+	
+	
+	{
+		"material":{
+
+			"name": "circularTable",
+			"x": 77,
+			"y": 81,
+			"angle": 0
+		}
+	},
+	
+	
+	{
+		"material":{
+
+			"name": "circularTable",
+			"x": 77,
+			"y": 66,
+			"angle": 0
+		}
+	},
+	
+
+	{
+		"material":{
+
+			"name": "circularTable",
+			"x": 92,
+			"y": 65,
+			"angle": 0
+		}
+	},
+	
+	
+	{
+		"material":{
+
+			"name": "circularTable",
+			"x": 110,
+			"y": 65,
+			"angle": 0
+		}
+	},
+
+	{
+		"enemy":{
+
+			"name": "player",
+			"weapon": "ak47",
+			"x": 63,
+			"y": 24,
+			"angle": "arriba",
+			"behavior": "quiet",
+			"origen": 29,
+			"destino": 21,
+			"pasos": 30
+		}
+	},
+
+	{
+		"enemy":{
+
+			"name": "player",
+			"weapon": "knife",
+			"x": 24,
+			"y": 47,
+			"angle": "derecha",
+			"behavior": "quiet",
+			"origen": 29,
+			"destino": 21,
+			"pasos": 30
+		}
+	},
+
+	{
+		"enemy":{
+
+			"name": "player",
+			"weapon": "knife",
+			"x": 50,
+			"y": 74,
+			"angle": "abajo",
+			"behavior": "quiet",
+			"origen": 29,
+			"destino": 21,
+			"pasos": 30
+		}
+	},
+
+	{
+		"enemy":{
+
+			"name": "player",
+			"weapon": "deagle",
+			"x": 45,
+			"y": 66,
+			"angle": "abajo",
+			"behavior": "vertical",
+			"origen": 29,
+			"destino": 21,
+			"pasos": 14
+		}
+	},
+
+	{
+		"enemy":{
+
+			"name": "player",
+			"weapon": "m4a1",
+			"x": 75,
+			"y": 74,
+			"angle": "abajo",
+			"behavior": "quiet",
+			"origen": 29,
+			"destino": 21,
+			"pasos": 14
+		}
+	},
+
+
+	{
+		"enemy":{
+
+			"name": "player",
+			"weapon": "m4a1",
+			"x": 86,
+			"y": 60,
+			"angle": "izquierda",
+			"behavior": "quiet",
+			"origen": 29,
+			"destino": 21,
+			"pasos": 14
+		}
+	},
+
+	{
+		"enemy":{
+
+			"name": "player",
+			"weapon": "m4a1",
+			"x": 78,
+			"y": 74,
+			"angle": "abajo",
+			"behavior": "quiet",
+			"origen": 29,
+			"destino": 21,
+			"pasos": 14
+		}
+	},
+
+
+	{
+		"enemy":{
+
+			"name": "player",
+			"weapon": "m4a1",
+			"x": 83,
+			"y": 64,
+			"angle": "izquierda",
+			"behavior": "quiet",
+			"origen": 29,
+			"destino": 21,
+			"pasos": 14
+		}
+	},
+
+	{
+		"enemy":{
+
+			"name": "player",
+			"weapon": "shotgun",
+			"x": 91,
+			"y": 73,
+			"angle": "abajo",
+			"behavior": "quiet",
+			"origen": 29,
+			"destino": 21,
+			"pasos": 14
+		}
+	},
+
+	{
+		"enemy":{
+
+			"name": "player",
+			"weapon": "shotgun",
+			"x": 101,
+			"y": 73,
+			"angle": "abajo",
+			"behavior": "quiet",
+			"origen": 29,
+			"destino": 21,
+			"pasos": 14
+		}
+	},
+
+	{
+		"enemy":{
+
+			"name": "player",
+			"weapon": "m4a1",
+			"x": 65,
+			"y": 64,
+			"angle": "izquierda",
+			"behavior": "quiet",
+			"origen": 29,
+			"destino": 21,
+			"pasos": 14
+		}
+	},
+
+
+
+]
