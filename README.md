@@ -34,4 +34,4 @@ For artificial intelligence, the A* graph is used with slight modifications to a
 
 # Technologies used
 
-Java 8 with LibGDX and box2D
+Java 8 with LibGDX 0.9.9 and box2D
