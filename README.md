@@ -2,12 +2,6 @@
 
 Video game project for the video game development subject taught by Professor Jose Sanchez, at the University of Zulia (LUZ)
 
-# General concept
-
-- Thematic focus of the game: Escape from the psychiatric prison by overcoming the challenges in each level (room). 
-- Game environment: It takes place in a psychiatric prison. 
-- Perspective: Top down camera (view from above).
-
 # Game mechanics 
 
 - Player objective: Get out of prison alive, overcome obstacles. 
@@ -19,6 +13,12 @@ Video game project for the video game development subject taught by Professor Jo
 - Hotline Miami.
 
 - Adventures of Lolo.
+
+# General concept
+
+- Thematic focus of the game: Escape from the psychiatric prison by overcoming the challenges in each level (room). 
+- Game environment: It takes place in a psychiatric prison. 
+- Perspective: Top down camera (view from above).
 
 The game consists of escaping from a psychiatric prison, in which the player is a mental patient who lives in the "real" world and a "surreal" one, in which the surreal world interprets the other members of the game as video game characters, or famous cartoons (mario bros, Mickey mouse, Son Goku...), and that to escape from prison he must kill each one of them and solve puzzles to achieve the objective. The game ends when the player is killed or when he is caught.
 
