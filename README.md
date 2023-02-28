@@ -4,11 +4,15 @@ Video game project for the video game development subject taught by Professor Jo
 
 # General concept
 
-- Thematic focus of the game i- Dream to fulfill: Escape from the psychiatric prison by overcoming the challenges in each level (room). ii- Game environment: It takes place in a psychiatric prison. iii- Perspective: Top down camera (view from above).
+- Thematic focus of the game: Escape from the psychiatric prison by overcoming the challenges in each level (room). 
+- Game environment: It takes place in a psychiatric prison. 
+- Perspective: Top down camera (view from above).
 
 # Game mechanics 
 
-Player objective: Get out of prison alive, overcome obstacles. ii- Player actions: Solve puzzles and defeat enemies, using weapons. iii- Challenges to be faced by the player: The challenges will be intrinsic. 
+- Player objective: Get out of prison alive, overcome obstacles. 
+- Player actions: Solve puzzles and defeat enemies, using weapons. 
+- Challenges to be faced by the player: The challenges will be intrinsic. 
 
 # Similar games
 
