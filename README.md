@@ -10,7 +10,7 @@ Video game project for the video game development subject taught by Professor Jo
 
 Player objective: Get out of prison alive, overcome obstacles. ii- Player actions: Solve puzzles and defeat enemies, using weapons. iii- Challenges to be faced by the player: The challenges will be intrinsic. 
 
-# Similar games:
+# Similar games
 
 - Hotline Miami.
 
